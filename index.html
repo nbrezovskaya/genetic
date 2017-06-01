@@ -1,0 +1,33 @@
+<html>
+<header>
+    <title>Lander</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css"
+          href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
+</header>
+<body>
+<div id="canvas-holder" class="panel-holder">
+    <svg id="canvas"></svg>
+</div>
+<div id="controls-holder" class="panel-holder">
+    <select id="levelselect"></select>
+</div>
+<div id="animation-controls-holder" class="panel-holder">
+    <span id="bestValue"></span>
+    <br>
+    <span id="generationValue"></span>
+    <br>
+    <span>Animation</span>
+    <div id="slider"></div>
+    <button id="playAnimation">play</button>
+    <button id="pauseAnimation">pause</button>
+</div>
+
+
+<script src="libs/rainbowvis.js"></script>
+<script src="libs/TweenMax.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script data-main="main" src="libs/require.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.panel-holder {
+    float: left;
+}
+
+#controls-holder {
+    margin-left: 10px;
+}
+
+#controls-holder > button {
+    margin-top: 5px;
+}
+
+#slider {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    width: 200px;
+}
